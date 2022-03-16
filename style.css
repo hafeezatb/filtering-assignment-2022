@@ -19,8 +19,7 @@ html {
 
 p {
     color: black;
-    padding-right: 3.5em;
-    padding-left: 3.5em;
+    
     text-align: left;
     font-weight: 700;
     font-size: 18px;
@@ -46,6 +45,7 @@ h4 {
 img {
     border-color: black;
     border: 2px solid;
+    width: 100%;
 }
 
 h3 {
@@ -59,6 +59,9 @@ h3 {
 figcaption {
     font-size: 12px;
     text-align: center;
+}
+.dropdown {
+    color:orange
 }
 
 .image {
@@ -79,6 +82,30 @@ figcaption {
         margin-right: auto;
 
     }
+
+    select {
+        display: block;
+        width: 60%;
+        padding:10px;
+        margin-left: 10px;
+        margin-right:10px;
+        margin-bottom:10px;
+    }
+
+.item{
+    display:none;
+}
+
+.item.active{
+    display:block;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
 
 /*** set min width for photo ***/
 /** desktop view - display flex **/
