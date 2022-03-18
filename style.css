@@ -92,20 +92,21 @@ figcaption {
         margin-bottom:10px;
     }
 
-.item{
-    display:none;
-}
 
+.item {
+        display: none;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
 .item.active{
-    display:block;
-}
-
+        display: flex;
+    }
 .container{
     max-width: 800px;
     margin: 0 auto;
     padding: 5px;
 }
-
 
 /*** set min width for photo ***/
 /** desktop view - display flex **/
